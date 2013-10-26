@@ -1,0 +1,6 @@
+#!/bin/bash
+
+g++ -o lab2_jhoward lab2_func.cpp lab2_tester.cpp lab2_class.h
+./lab2_jhoward
+
+rm lab2_jhoward

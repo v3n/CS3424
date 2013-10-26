@@ -1,0 +1,6 @@
+echo -e '\033[1;35mCompiling: \033[0m'
+g++ tester.cpp -Woverloaded-virtual
+echo -e '\033[1;32mCompilation complete, running:\033[0m'
+./a.out
+echo -e '\033[1;31mRun complete, cleaning up...\033[0m'
+rm a.out
